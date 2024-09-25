@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biology Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .correct-answer {
+      color: green;
+    }
+    .wrong-answer {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Biology practice exam </h1>
+  
+  <form id="quizForm">
+    <!-- Question 1 -->
+    <div class="question">
+      <p>1. What is the smallest unit of life?</p>
+      <input type="radio" name="q1" value="A"> A) Atom<br>
+      <input type="radio" name="q1" value="B"> B) Molecule<br>
+      <input type="radio" name="q1" value="C"> C) Cell<br>
+      <input type="radio" name="q1" value="D"> D) Organelle<br>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+      <p>2. What is an organelle?</p>
+      <input type="radio" name="q2" value="A"> A) The smallest unit of matter<br>
+      <input type="radio" name="q2" value="B"> B) A structure inside a cell that does a job<br>
+      <input type="radio" name="q2" value="C"> C) A type of molecule<br>
+      <input type="radio" name="q2" value="D"> D) The nucleus of an atom<br>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+      <p>3. What are molecules made of?</p>
+      <input type="radio" name="q3" value="A"> A) Cells<br>
+      <input type="radio" name="q3" value="B"> B) Organelles<br>
+      <input type="radio" name="q3" value="C"> C) Different atoms joined by bonds<br>
+      <input type="radio" name="q3" value="D"> D) Protons and neutrons<br>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+      <p>4. What is the atomic number?</p>
+      <input type="radio" name="q4" value="A"> A) The number of neutrons<br>
+      <input type="radio" name="q4" value="B"> B) The number of protons<br>
+      <input type="radio" name="q4" value="C"> C) The number of electrons<br>
+      <input type="radio" name="q4" value="D"> D) The total number of protons and neutrons<br>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">
+      <p>5. How many electrons does the first shell hold?</p>
+      <input type="radio" name="q5" value="A"> A) 1<br>
+      <input type="radio" name="q5" value="B"> B) 2<br>
+      <input type="radio" name="q5" value="C"> C) 8<br>
+      <input type="radio" name="q5" value="D"> D) 18<br>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question">
+      <p>6. What is the octet rule?</p>
+      <input type="radio" name="q6" value="A"> A) Elements want to have 8 protons<br>
+      <input type="radio" name="q6" value="B"> B) Elements want to fill their outermost shell<br>
+      <input type="radio" name="q6" value="C"> C) Elements want to have 8 neutrons<br>
+      <input type="radio" name="q6" value="D"> D) Elements want to have 8 total particles<br>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question">
+      <p>7. What are valence electrons?</p>
+      <input type="radio" name="q7" value="A"> A) Electrons in the innermost shell<br>
+      <input type="radio" name="q7" value="B"> B) Electrons in the nucleus<br>
+      <input type="radio" name="q7" value="C"> C) Electrons in the outermost shell<br>
+      <input type="radio" name="q7" value="D"> D) Electrons that don't participate in bonding<br>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question">
+      <p>8. Where are noble gases located on the periodic table?</p>
+      <input type="radio" name="q8" value="A"> A) Column 1<br>
+      <input type="radio" name="q8" value="B"> B) Column 8<br>
+      <input type="radio" name="q8" value="C"> C) Column 18<br>
+      <input type="radio" name="q8" value="D"> D) Row 18<br>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question">
+      <p>9. What is electronegativity?</p>
+      <input type="radio" name="q9" value="A"> A) The ability of an atom to lose electrons<br>
+      <input type="radio" name="q9" value="B"> B) The ability of an atom to attract electrons to itself<br>
+      <input type="radio" name="q9" value="C"> C) The ability of an atom to repel electrons<br>
+      <input type="radio" name="q9" value="D"> D) The ability of an atom to create new electrons<br>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question">
+      <p>10. What is the difference in electronegativity for ionic bonds?</p>
+      <input type="radio" name="q10" value="A"> A) 0 - 0.4<br>
+      <input type="radio" name="q10" value="B"> B) 0.5 - 1.7<br>
+      <input type="radio" name="q10" value="C"> C) 1.8 - 3.3<br>
+      <input type="radio" name="q10" value="D"> D) Greater than 3.3<br>
+    </div>
+
+    <!-- Question 11 -->
+    <div class="question">
+      <p>11. Which elements tend to form ionic bonds?</p>
+      <input type="radio" name="q11" value="A"> A) Elements in the same column<br>
+      <input type="radio" name="q11" value="B"> B) Elements in the same row<br>
+      <input type="radio" name="q11" value="C"> C) Elements on opposite sides of the periodic table<br>
+      <input type="radio" name="q11" value="D"> D) Elements in the middle of the periodic table<br>
+    </div>
+
+    <!-- Question 12 -->
+    <div class="question">
+      <p>12. What type of bond does hydrogen typically form?</p>
+      <input type="radio" name="q12" value="A"> A) Ionic<br>
+      <input type="radio" name="q12" value="B"> B) Covalent<br>
+      <input type="radio" name="q12" value="C"> C) Metallic<br>
+      <input type="radio" name="q12" value="D"> D) Van der Waals<br>
+    </div>
+
+    <!-- Question 13 -->
+    <div class="question">
+      <p>13. What is a covalent bond?</p>
+      <input type="radio" name="q13" value="A"> A) The sharing of electrons between two atoms<br>
+      <input type="radio" name="q13" value="B"> B) The transfer of electrons between two atoms<br>
+      <input type="radio" name="q13" value="C"> C) The repulsion of electrons between two atoms<br>
+      <input type="radio" name="q13" value="D"> D) The creation of new electrons between two atoms<br>
+    </div>
+
+    <!-- Question 14 -->
+    <div class="question">
+      <p>14. What is the difference in electronegativity for non-polar covalent bonds?</p>
+      <input type="radio" name="q14" value="A"> A) 0 - 0.4<br>
+      <input type="radio" name="q14" value="B"> B) 0.5 - 1.7<br>
+      <input type="radio" name="q14" value="C"> C) 1.8 - 3.3<br>
+      <input type="radio" name="q14" value="D"> D) Greater than 3.3<br>
+    </div>
+
+    <!-- Question 15 -->
+    <div class="question">
+      <p>15. Why is CO2 nonpolar?</p>
+      <input type="radio" name="q15" value="A"> A) It has no carbon atoms<br>
+      <input type="radio" name="q15" value="B"> B) It has no oxygen atoms<br>
+      <input type="radio" name="q15" value="C"> C) Due to symmetry being canceled out<br>
+      <input type="radio" name="q15" value="D"> D) It has an uneven number of electrons<br>
+    </div>
+
+    <!-- Question 16 -->
+    <div class="question">
+      <p>16. What is a hydrogen bond?</p>
+      <input type="radio" name="q16" value="A"> A) A type of covalent bond<br>
+      <input type="radio" name="q16" value="B"> B) A type of ionic bond<br>
+      <input type="radio" name="q16" value="C"> C) An attractive interaction between hydrogen atoms and polar or charged molecules<br>
+      <input type="radio" name="q16" value="D"> D) A repulsive interaction between hydrogen atoms and polar molecules<br>
+    </div>
+
+    <!-- Question 17 -->
+    <div class="question">
+      <p>17. What type of molecule is water?</p>
+      <input type="radio" name="q17" value="A"> A) Nonpolar<br>
+      <input type="radio" name="q17" value="B"> B) Polar<br>
+      <input type="radio" name="q17" value="C"> C) Ionic<br>
+      <input type="radio" name="q17" value="D"> D) Metallic<br>
+    </div>
+
+    <!-- Question 18 -->
+    <div class="question">
+      <p>18. What is a hydrophilic substance?</p>
+      <input type="radio" name="q18" value="A"> A) A substance that dissolves in water<br>
+      <input type="radio" name="q18" value="B"> B) A substance that repels water<br>
+      <input type="radio" name="q18" value="C"> C) A substance that creates water<br>
+      <input type="radio" name="q18" value="D"> D) A substance that destroys water<br>
+    </div>
+
+    <!-- Question 19 -->
+    <div class="question">
+      <p>19. What is a hydrophobic substance?</p>
+      <input type="radio" name="q19" value="A"> A) A substance that dissolves in water<br>
+      <input type="radio" name="q19" value="B"> B) A substance that repels water<br>
+      <input type="radio" name="q19" value="C"> C) A substance that creates water<br>
+      <input type="radio" name="q19" value="D"> D) A substance that is attracted to water<br>
+    </div>
+
+    <!-- Question 20 -->
+    <div class="question">
+      <p>20. What is polymerization?</p>
+      <input type="radio" name="q20" value="A"> A) Breaking molecules apart<br>
+      <input type="radio" name="q20" value="B"> B) Joining molecules together to make a bigger molecule<br>
+      <input type="radio" name="q20" value="C"> C) Changing the shape of molecules<br>
+      <input type="radio" name="q20" value="D"> D) Removing electrons from molecules<br>
+    </div>
+
+    <!-- Question 21 -->
+    <div class="question">
+      <p>21. What is a monomer?</p>
+      <input type="radio" name="q21" value="A"> A) A single subunit<br>
+      <input type="radio" name="q21" value="B"> B) Two subunits joined together<br>
+      <input type="radio" name="q21" value="C"> C) Three subunits joined together<br>
+      <input type="radio" name="q21" value="D"> D) Four subunits joined together<br>
+    </div>
+
+    <!-- Question 22 -->
+    <div class="question">
+      <p>22. What are carbohydrates made of?</p>
+      <input type="radio" name="q22" value="A"> A) Carbon and hydrogen only<br>
+      <input type="radio" name="q22" value="B"> B) Carbon and oxygen only<br>
+      <input type="radio" name="q22" value="C"> C) Carbon, hydrogen, and oxygen<br>
+      <input type="radio" name="q22" value="D"> D) Carbon, hydrogen, oxygen, and nitrogen<br>
+    </div>
+
+    <!-- Question 23 -->
+    <div class="question">
+      <p>23. What causes protein folding?</p>
+      <input type="radio" name="q23" value="A"> A) Ionic bonds<br>
+      <input type="radio" name="q23" value="B"> B) Covalent bonds<br>
+      <input type="radio" name="q23" value="C"> C) Hydrogen bonds<br>
+      <input type="radio" name="q23" value="D"> D) Van der Waals forces<br>
+    </div>
+
+    <!-- Question 24 -->
+    <div class="question">
+      <p>24. What is the monomer of nucleic acids?</p>
+      <input type="radio" name="q24" value="A"> A) Amino acid<br>
+      <input type="radio" name="q24" value="B"> B) Glucose<br>
+      <input type="radio" name="q24" value="C"> C) Nucleotide<br>
+      <input type="radio" name="q24" value="D"> D) Fatty acid<br>
+    </div>
+
+    <!-- Question 25 -->
+    <div class="question">
+      <p>25. What are the bases in DNA?</p>
+      <input type="radio" name="q25" value="A"> A) ACTG<br>
+      <input type="radio" name="q25" value="B"> B) AUGC<br>
+      <input type="radio" name="q25" value="C"> C) ATCG<br>
+      <input type="radio" name="q25" value="D"> D) AUCG<br>
+    </div>
+
+    <!-- Question 26 -->
+    <div class="question">
+      <p>26. What is the difference between DNA and RNA?</p>
+      <input type="radio" name="q26" value="A"> A) DNA is single-stranded, RNA is double-stranded<br>
+      <input type="radio" name="q26" value="B"> B) DNA uses the base U, RNA uses the base T<br>
+      <input type="radio" name="q26" value="C"> C) DNA uses deoxyribose sugar, RNA uses ribose sugar<br>
+      <input type="radio" name="q26" value="D"> D) DNA is found only in the nucleus, RNA is found only in the cytoplasm<br>
+    </div>
+
+    <!-- Question 27 -->
+    <div class="question">
+      <p>27. What is a mutation?</p>
+      <input type="radio" name="q27" value="A"> A) A change in the DNA sequence<br>
+      <input type="radio" name="q27" value="B"> B) A change in protein structure<br>
+      <input type="radio" name="q27" value="C"> C) A change in cell shape<br>
+      <input type="radio" name="q27" value="D"> D) A change in organism behavior<br>
+    </div>
+
+    <!-- Question 28 -->
+    <div class="question">
+      <p>28. What is diffusion?</p>
+      <input type="radio" name="q28" value="A"> A) The movement of water across a membrane<br>
+      <input type="radio" name="q28" value="B"> B) The spreading of molecules from high to low concentration<br>
+      <input type="radio" name="q28" value="C"> C) The active transport of molecules across a membrane<br>
+      <input type="radio" name="q28" value="D"> D) The breakdown of large molecules into smaller ones<br>
+    </div>
+
+    <!-- Question 29 -->
+    <div class="question">
+      <p>29. What is osmosis?</p>
+      <input type="radio" name="q29" value="A"> A) The movement of water from high to low solute concentration<br>
+      <input type="radio" name="q29" value="B"> B) The movement of water from low to high solute concentration<br>
+      <input type="radio" name="q29" value="C"> C) The movement of solutes from high to low concentration<br>
+      <input type="radio" name="q29" value="D"> D) The movement of solutes from low to high concentration<br>
+    </div>
+
+    <!-- Question 30 -->
+    <div class="question">
+      <p>30. What is ATP?</p>
+      <input type="radio" name="q30" value="A"> A) A type of sugar<br>
+      <input type="radio" name="q30" value="B"> B) A type of lipid<br>
+      <input type="radio" name="q30" value="C"> C) The energy currency of the cell<br>
+      <input type="radio" name="q30" value="D"> D) A type of protein<br>
+    </div>
+
+   <button type="button" onclick="checkAnswers()">Submit Quiz</button>
+  </form>
+
+  <script>
+    function checkAnswers() {
+      let score = 0;
+      let correctAnswersList = '';
+
+      // Answer key
+      const answers = {
+        q1: 'C', q2: 'B', q3: 'C', q4: 'B', q5: 'B', q6: 'B', q7: 'C',
+        q8: 'C', q9: 'B', q10: 'C', q11: 'C', q12: 'B', q13: 'A', q14: 'A',
+        q15: 'C', q16: 'C', q17: 'B', q18: 'A', q19: 'B', q20: 'B', q21: 'A',
+        q22: 'C', q23: 'C', q24: 'C', q25: 'C', q26: 'C', q27: 'A', q28: 'B',
+        q29: 'B', q30: 'C'
+      };
+
+      // Get answers from form
+      const form = document.forms['quizForm'];
+      const userAnswers = {
+        q1: form['q1'].value, q2: form['q2'].value, q3: form['q3'].value,
+        q4: form['q4'].value, q5: form['q5'].value, q6: form['q6'].value,
+        q7: form['q7'].value, q8: form['q8'].value, q9: form['q9'].value,
+        q10: form['q10'].value, q11: form['q11'].value, q12: form['q12'].value,
+        q13: form['q13'].value, q14: form['q14'].value, q15: form['q15'].value,
+        q16: form['q16'].value, q17: form['q17'].value, q18: form['q18'].value,
+        q19: form['q19'].value, q20: form['q20'].value, q21: form['q21'].value,
+        q22: form['q22'].value, q23: form['q23'].value, q24: form['q24'].value,
+        q25: form['q25'].value, q26: form['q26'].value, q27: form['q27'].value,
+        q28: form['q28'].value, q29: form['q29'].value, q30: form['q30'].value
+      };
+
+      // Check answers and prepare feedback
+      for (let question in answers) {
+        if (userAnswers[question] === answers[question]) {
+          score++;
+        } else {
+          correctAnswersList += `Question ${question.replace('q', '')}: Correct answer is ${answers[question]}\n`;
+        }
+      }
+
+      // Display score and correct answers
+      alert(`Your score is: ${score} out of 30\n\n${correctAnswersList}`);
+    }
+  </script>
+</body>
+</html>
